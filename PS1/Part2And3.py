@@ -9,7 +9,7 @@ from sqlalchemy.orm import sessionmaker;
 from sqlalchemy import func, desc, distinct,select;
  
 engine = create_engine(
-      "mysql+pymysql://root:13362478363@127.0.0.1/PS1", echo=True);
+      "mysql+pymysql://root:pw@127.0.0.1/PS1", echo=True);
 
 conn = engine.connect();
 
